@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*---------------------------------
+        MENU PRINCIPAL
+---------------------------------*/
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-menu {
+    width: 90%;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.sub-menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-menu ul li {
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-principal {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo-princ {
+    padding-right: 10em;
+    padding-left: 3em;
+}
+
+.itens-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.itens-menu ul li {
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0 10px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.pesquisa {
+    width: 250px;
+    height: 32px;
+    background-color: #e9ecef;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.menu-pesquisa {
+    background-color: transparent;
+    width: 82%;
+    height: 100%;
+    padding-left: 0.5em;
+    outline: 0;
+}
+
+.fa-magnifying-glass:before, .fa-search:before {
+    cursor: pointer;
+    height: 100%;
+}
+
+.sub-menu-2 {
+    margin-top: 1em;
+    font-size: 16px;
+    padding-right: 6em;
+}
+
+.fa-heart:before {
+    padding: 0 3px;
+}
+
+/*---------------------------------
+        PRIMEIRO BANNER
+---------------------------------*/
+
+.primeiro-bg {
+    width: 100%;
+    height: 575px;
+    background-image: url('./img/banner-yeezy.webp');
+    background-position: top;
+    object-fit: cover;
+    background-position-x: right;
+}
+
+.conteudo-banner {
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    padding-left: 8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.tp {
+    font-family: YeezyzTStar,AdineuePRO,Arial;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ts {
+    font-family: YeezyzTStar,AdineuePRO,Arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.btn-1 {
+    width: 195px;
+    height: 55px;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0 0.2em;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+
+.seta {
+    height: 100%;
+    margin-top: 1.4em;
+    padding-right: 1em;
+}
+
+.btn-1:hover {
+    color: rgb(75, 73, 73);
+    transition: 0.7s ease;
+}
+
+/*---------------------------------
+        SEGUNDO BANNER
+---------------------------------*/
+
+.segundo-banner {
+    width: 100%;
+    height: 800px;
+    background-image: url('./img/banner-2.png');
+    object-fit: cover;
+}
+
+.text-princ-2 {
+    font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+.text-sec-2 {
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 2em;
+}
+
+.conteudo-banner-2 {
+    width: 45%;
+    height: 100%;
+    Justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6em;
+}
+
+.btn-2 {
+    width: 195px;
+    height: 55px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+/*---------------------------------
+        TERCEIRO BANNER
+---------------------------------*/
+
+.terceiro-banner {
+    width: 100%;
+    height: 450px;
+    background-image: url('./img/banner-3.png');
+    object-fit: cover;
+}
+
+.conteudo-banner-3 {
+    width: 100%;
+    height: 100%;
+    Justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.text-princ-3 {
+    font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 0
+}
+
+.text-sec-3 {
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.link-banner-3 a {
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.link-banner-3 {
+    margin-top: 15px
+}
+
+/*---------------------------------
+            MAIN
+---------------------------------*/
+
+.popular {
+    width: 100%;
+    Justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 5em;
+}
+
+.text-popular {
+    font-style: italic;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2em;
+}
+
+.btn-popular {
+    width: 110px;
+    height: 45px;
+    align-items: center;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid rgba(119, 116, 116, 0.452);
+    cursor: pointer;
+}
+
+.btn-popular-e {
+    width: 170px;
+    height: 45px;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid rgba(119, 116, 116, 0.452);
+    cursor: pointer;
+}
+
+.btn-popular:hover,
+.btn-popular-e:hover {
+    border: 1px solid rgba(27, 27, 27, 0.61);
+    transition: 0.5s ease;
+}
+
+.genero {
+    width: 100%;
+    Justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 5em;
+}
+
+.text-genero {
+    font-style: italic;
+    width: 100%;
+    float: left;
+    font-family: 'AdihausDIN', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2em;
+    padding-left: 30%;
+}
+
+.banner-genero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.homem,
+.mulher,
+.Kids {
+    width: 405px;
+    height: 302px;
+    padding: 0 25px;
+}
+
+.img-genero {
+    position: absolute;
+}
+
+.img-genero-1 {
+    width: 405px;
+    height: 302px;
+    object-fit: cover;
+}
+
+.spam-genero {
+    position: absolute;
+}
